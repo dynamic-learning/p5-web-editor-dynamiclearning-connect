@@ -4,7 +4,7 @@ Class for connecting dynamic learning with p5 web editor sketch
 
 Add [this js](https://github.com/dynamic-learning/p5-web-editor-dynamiclearning-connect/blob/master/dl.js) file for connecting a sketch to dynamic learning to save the state of a simulation.
 
-In setup function 
+### Code sample
 ```
 let dl;
 function setup() {
