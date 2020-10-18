@@ -6,9 +6,9 @@ Add [this js](https://github.com/dynamic-learning/p5-web-editor-dynamiclearning-
 
 In setup function 
 ```
-let
+let dl;
 function setup() {
-  let dl = new DL();
+  dl = new DL();
   dl.load(initialize)
   // More code
 }
