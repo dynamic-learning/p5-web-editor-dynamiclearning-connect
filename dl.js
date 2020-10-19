@@ -21,6 +21,9 @@ class DL {
   }
 
   save(payload) {
+    if(!this.port) {
+      return;  
+    }
     this.port.postMessage({
       action: "saveToDL",
       payload,
